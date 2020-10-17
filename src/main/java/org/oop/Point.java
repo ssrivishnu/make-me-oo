@@ -13,7 +13,7 @@ public class Point {
         return oppositePoint.x - this.x;
     }
 
-    public double getY() {
-        return y;
+    public double calculateYDistance(Point oppositePoint) {
+        return oppositePoint.y - this.y;
     }
 }
